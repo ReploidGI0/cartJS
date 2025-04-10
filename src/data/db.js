@@ -58,7 +58,7 @@ export const db = [
     {
         id: 9,
         name: 'Gundam Hajiboroshi HG',
-        image: 'hajiboroshi',
+        image: 'hajiroboshi',
         description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
         price: 289,
     },

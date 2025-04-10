@@ -27,7 +27,7 @@ function App() {
           {data.map((kit) => (
             <Kit
               //Prop={objeto}
-              key={guitar.id}
+              key={kit.id}
               kit={kit}
               addToCart={addToCart}
             />

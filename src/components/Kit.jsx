@@ -1,5 +1,5 @@
 export default function Kit({ kit, addToCart }) {
-    const { id, name, image, description, price } = kit
+    const {name, image,description, price } = kit
 
     return (
         <div className="col-md-6 col-lg-4 my-4 row align-items-center">
@@ -8,6 +8,7 @@ export default function Kit({ kit, addToCart }) {
             </div>
             <div className="col-8 desc">
                 <h3 className="text-black fs-4 fw-bold">{name}</h3>
+                <p>{description}</p>
                 <p className="fw-black text-primary fs-3">${price}</p>
                 <button
                     type="button"

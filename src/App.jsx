@@ -26,7 +26,6 @@ function App() {
         <div className="row mt-5">
           {data.map((kit) => (
             <Kit
-              //Prop={objeto}
               key={kit.id}
               kit={kit}
               addToCart={addToCart}

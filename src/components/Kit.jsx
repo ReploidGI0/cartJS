@@ -3,11 +3,11 @@ export default function Kit({ kit, addToCart }) {
 
     return (
         <div className="col-md-6 col-lg-4 my-4 row align-items-center">
-            <div className="col-4">
+            <div className="img-top">
                 <img className="img-fluid" src={`/img/${image}.jpg`} alt="imagen kit" />
             </div>
-            <div className="col-8">
-                <h3 className="text-black fs-4 fw-bold text-uppercase">{name}</h3>
+            <div className="col-8 desc">
+                <h3 className="text-black fs-4 fw-bold">{name}</h3>
                 <p className="fw-black text-primary fs-3">${price}</p>
                 <button
                     type="button"

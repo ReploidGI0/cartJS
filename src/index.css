@@ -37,7 +37,8 @@
 }
 
 #carrito img {
-  width: 30px;
+  width: 60px;
+  
 }
 
 #carrito .btn-danger {
@@ -91,7 +92,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #262626;
-  --bs-primary-rgb: 233, 148, 1;
+  --bs-primary-rgb: 233, 38, 1;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -157,9 +158,9 @@ body {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Outfit", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   line-height: 1.2;
-  color: #e99401;
+  color: #3c3f46;
 }
 
 h1, .h1 {
@@ -369,6 +370,16 @@ button:not(:disabled),
   flex: 0 0 auto;
   width: 66.66666667%;
 }
+
+.desc{
+  width: 100%;
+  padding-top: 20px;
+}
+
+.bordes{
+  border: 1px solid black;
+}
+
 @media (min-width: 768px) {
   .col-md-3 {
     flex: 0 0 auto;

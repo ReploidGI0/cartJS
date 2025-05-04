@@ -1,16 +1,55 @@
-# React + Vite
+# Carrito de Compras - React + JavaScript + Vite
+*📓 [Español](#inicio)*
+*📓 [English](#start)*
 
-Esta proyecto consiste en el módulo de productos y un carrito de compra de una tienda enfocada en Model Kits. 
+### <a id="inicio" />
+Este proyecto consiste en el módulo de productos y carirto de compra de una tienda que vende Model Kits. Utilizando componentes hooks, custom hooks y localStorage, para que el carrito de compras quede almacenado en el navegador
 
-Se hace uso de componentes, hooks y custom hooks. De igual manera se utiliza localStorage para que el carrito se almacene en el navegador.
+Algunas de las cosas que se aprendieron con este proyecto son:
 
-NO ES UN PROYECTO COMPLETO, SOLO SON LOS APARTADOS MENCIONADOS Y NO SE REALIZA NINGÚN PROCESO DE COMPRA. 
+### <a  /> LocalStorage
+Se utilizó localStorage para almacenar los datos de los productos agregados al carrito
 
------------------------------------------------------------
+### <a  /> Modularidad y Reutilización de Componentes
+La reutilización de componentes en este proyecto fue esencialmente necesaria para mostrar los productos y los productos dentro del carrito, evitando código duplicado.
 
-This project consists of a product module and a shopping cart for a store focused on selling model kits.
+### <a  /> Custom Hooks
+Dentro del custom hook, se encuentra la lógica para agregar, eliminar o aumentar la cantidad de elementos agregados al carrito. De igual manera se encuentran varios hooks como useEffect para la parte del localStorage, useMemo para states derivados  y useState para el carrito
 
-It uses components, hooks, custom hooks, and props. LocalStorage is also used to store the cart in the browser.
+### <a  /> Operadores Ternarios
+Mediante el uso de operadores ternarios, se puede establecer si se renderiza un componente o no
 
-This is not a complete project; it only includes the sections mentioned above, and no checkout process is involved.
+### <a  /> Framework CSS
+Se utilizó Bootstrap para manejar los estilos de la página
 
+*📷[Screenshots](#screenshots)*
+
+# Shopping Cart - React + JavaScript + Vite
+
+### <a id="start" />
+
+This project consists of the product and shopping cart modules for a store that sells Model Kits. It uses components, hooks, custom hooks, and localStorage to store the shopping cart in the browser.
+
+Some of the things learned with this project are:
+
+### <a  /> LocalStorage
+LocalStorage was used to store data for products added to the cart.
+
+### <a  /> Modularity and Components Reusability
+Reusing components in this project was essential to display the products and items within the cart, avoiding duplicate code.
+
+### <a  /> Ternary Operators
+By using ternary operators, you can set whether a component is rendered or not
+
+### <a  /> Performance Optimization
+In addition to using components, by using ternary operators, you can set whether a component is rendered or not, which can improve the performance of web applications.
+
+### <a  /> Framework CSS
+Bootstrap was used to handle the page styles
+
+---
+### <a id="screenshots" /> 
+# Screenshots
+![Interfaz](https://github.com/ReploidGI0/cartTS/blob/main/images/carrito1.PNG "Interfaz")
+![Interfaz](https://github.com/ReploidGI0/cartTS/blob/main/images/carrito2.PNG "Interfaz")
+![Interfaz](https://github.com/ReploidGI0/cartTS/blob/main/images/carrito3.PNG "Interfaz")
